@@ -1,0 +1,78 @@
+body{
+    margin: 0;  
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+#sidemenu{
+    text-align: center;
+    background-color: cyan;
+    width:20%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+h2{
+    padding: 0px;
+}
+#pfpholder{
+    padding: 20px;
+}
+#pfp{
+    width:180px ;
+    height:200px;
+    border: 10px solid grey;
+    border-radius:50%;
+}
+#pfp:hover{
+    opacity: 0.8;
+}
+.pagesholder{
+    display: flex;
+    flex-direction: column;
+}
+.pagesholder button{
+    margin: 12px;
+    padding: 5px;
+    
+    background-color: transparent;
+    border: none;
+    
+}
+.pagesholder button:hover{
+    background-color: #008CBA;
+    color: rgb(0, 255, 170); 
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+li{
+    padding:5px;
+}
+#ig{
+    height:30px;
+}
+#mail{
+    height:30px;
+}
+#twitter{
+    height:30px;
+}
+#mainmenu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#mainmenu h1{
+    background-color: red;
+    width: 80%;
+    float: right;
+    text-align: center;
+    flex-direction: column;
+}
+#hire{
+    width: 10%;
+    padding: 5px;
+}
