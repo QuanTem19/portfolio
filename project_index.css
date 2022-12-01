@@ -25,6 +25,8 @@ h2{
 }
 #pfpholder{
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 #pfp{
     width:180px ;
@@ -92,8 +94,9 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
     width: 80%;
-    background-color: rgb(114, 114, 114);
+    gap: 2rem;
 }
 #mainmenu #hire{
     width:50%;
@@ -103,9 +106,6 @@ li{
     transition: transform 0.5s;
     font-variant-caps: all-petite-caps;
     font-size: 20px;
-    position: absolute;
-    left: 460px;
-    top: 361px;
     box-shadow: 3px 3px 5px;
 }
 #hire:hover{
@@ -116,11 +116,13 @@ li{
   
 }
 #mainmenu h1{
-    background-color: rgb(0, 255, 106);
+    background-color:transparent;
+    color: white;
     width: 82%;
     text-align: center;
-   margin: auto;
-   font-variant-caps: small-caps;
+    margin:  0 auto;
+    font-variant-caps: small-caps;
+    font-size: 80px;
 }
 #jobRequestform{
     background-image: url(./Quan.PNG);
