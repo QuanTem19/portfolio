@@ -69,26 +69,25 @@ li{
     transition: transform 0.4s;
 }
 #ig:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 #mail{
     height:30px;
     transition: transform 0.4s;
 }
 #mail:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 #twitter{
     height:30px;
     transition: transform 0.4s;
 }
 #twitter:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 .social{
     display: flex;
     justify-content: space-around;
-    
 }
 #mainmenu{
     display: flex;
@@ -125,7 +124,7 @@ li{
     font-size: 80px;
 }
 #jobRequestform{
-    background-image: url(./Quan.PNG);
+
     display: none;
     position: absolute;
     top:0;
@@ -193,4 +192,18 @@ li{
     font-weight: bolder;
     transition-duration: 0.4s;
     cursor: pointer;
+}
+#backimage{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+#imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
 }

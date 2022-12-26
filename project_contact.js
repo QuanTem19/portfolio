@@ -6,22 +6,22 @@ let selectContact = document.getElementById(contact)
 
 selectHome.addEventListener("click",first)
 function first(){
-  window.location.href = "http://127.0.0.1:5500/project/project_index.html"
+  window.location.href = "http://127.0.0.1:5500/portfolio/index.html"
 }
- selectAbout.addEventListener("click",second)
+selectAbout.addEventListener("click",second)
  function second(){
-   window.location.href = "http://127.0.0.1:5500/project/project_about.html"
+   window.location.href = "http://127.0.0.1:5500/portfolio/project_about.html"
  }
  
- selectWhatIdo.addEventListener("click", third)
+selectWhatIdo.addEventListener("click",third)
  function third(){
-  window.location.href = "http://127.0.0.1:5500/project/project_whatIdo.html"
+  window.location.href = "http://127.0.0.1:5500/portfolio/project_whatIdo.html"
  }
  selectResume.addEventListener("click", fourth)
  function fourth(){
   window.location.href = ""
  }
- selectContact.addEventListener("click",fifth)
+selectContact.addEventListener("click",fifth)
  function fifth(){
-  window.location.href = "http://127.0.0.1:5500/project/project_contact.html"
- }   
+  window.location.href = "http://127.0.0.1:5500/portfolio/project_contact.html"
+ }

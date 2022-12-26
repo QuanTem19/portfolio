@@ -36,13 +36,18 @@
         </div>
         <div id="mainmenu">
             
-            <img src="./pexels-lukas-574071.jpg" alt="background" id="">
+            <img src="./pexels-lukas-574071.jpg" alt="background" id="backimage">
             <h1>Hi! I am a Software Developer</h1>
             <button id="hire" onclick="hire1()">Hire Me</button>
         </div>
 
         <form id="jobRequestform">
-            <h2>Job Request Form</h2>
+            <div id="imgcontainer">
+                <img src="./Quan.PNG" alt="">
+                <h2>Job Request Form</h2>
+            </div>
+            
+            <div id="formDetails">
             <label for="uname"><b>First Name</b></label>
             <input type="text" placeholder="Enter First Name" name="fname" required maxlength="9" class="input">
 
@@ -277,6 +282,7 @@
             <label for="job"><b>Job Description</b></label>
             <textarea id="subject" name="subject" placeholder="What can I do for you?" style="height:200px"></textarea>
             <button id="submit">Submit Job Request</button>
+        </div>  
         </form>
     </div>
 </body>

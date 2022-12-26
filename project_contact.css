@@ -13,11 +13,12 @@ body{
 }
 #sidemenu{
     text-align: center;
-    background-color: cyan;
-    width:33.6%;
+    background-color: rgb(44, 44, 44);
+    width: 20%;
+    min-width: 200px;
     height: 100vh;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
 }
 h2{
@@ -25,12 +26,14 @@ h2{
 }
 #pfpholder{
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 #pfp{
-    width:180px ;
-    height:200px;
+    width: 180px;
+    height: 200px;
     border: 10px solid grey;
-    border-radius:50%;
+    border-radius: 50%;
     transition: transform 1s;
 }
 #pfp:hover{
@@ -45,10 +48,10 @@ h2{
 .pagesholder button{
     margin: 12px;
     padding: 5px;
-    background-color:cyan;
+    background-color: cyan;
     border: 1px solid rgb(23, 167, 167);
-    border-radius: 20%;
-    
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px;
 }
 .pagesholder button:hover{
     background-color: #008CBA;
@@ -64,12 +67,28 @@ li{
 }
 #ig{
     height:30px;
+    transition: transform 0.4s;
+}
+#ig:hover{
+    transform: scale(1.2);
 }
 #mail{
     height:30px;
+    transition: transform 0.4s;
+}
+#mail:hover{
+    transform: scale(1.2);
 }
 #twitter{
     height:30px;
+    transition: transform 0.4s;
+}
+#twitter:hover{
+    transform: scale(1.2);
+}
+.social{
+    display: flex;
+    justify-content: space-around;
 }
 #mainmenu{
     display: flex;
